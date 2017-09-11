@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>MyGamingBox</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<script type="text/javascript" src></script>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600&amp;subset=cyrillic" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/addadvertise.css">
+
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+	<link rel="icon" type="image/png" href="images/favicon.jpg">
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.jpg">
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+
+	<script type="text/javascript" src="js/home.js"></script>
+				
+</head>
+<body>
+
+<header>
+<div class="containerheader">
+	<div class="headericons">
+		<a href="#" class="siteClick">www.mygamingbox.com</a>
+		<a href="#" id="profileicon" class="fa fa-user-circle" aria-hidden="true"></a>
+		<a href="#" class="signin">sign in</a> 
+	</div>
+</div>
+
+	
+
+	<div class="headerBackground">
+			<h1><img src="images/logooriginal.png" alt=""  class="logo" ></h1>
+
+			<input type="text" class="searchBox" placeholder="Find a game!">
+				<select class="dropdowncity">
+					<option value="AF">Цялата страна</option>
+					<option value="AX">Åland Islands</option>
+					<option value="AL">Albania</option>
+				</select>
+				<a href="#" class="searchbutton">Search!</a>
+	</div>
+	
+	<!-- ADD 7=**************** ADS -->
+
+<p class="textadd">Добави обява</p>
+
+<form name="htmlform" method="post" action="html_form_send.php">
+	<div class="labels">
+		<label for="аdname">Заглавие на обявата<span class="starsend">*</span></label><br clear="all">
+
+		<label for="category" class="addcategory">Категория<span class="starsend">*</span></label>
+		<br clear="all">
+
+		<label for="price" class="labelprice">Цена<span class="starsend">*</span></label>
+		<br clear="all">
+
+		<label for="price" class="labelprice">Доставка<span class="starsend">*</span></label>
+		<br clear="all">
+
+		<label for="price" class="labelprice">Състояние<span class="starsend">*</span></label>
+		<br clear="all">
+
+		<label for="price" class="labelprice">Тип обява<span class="starsend">*</span></label>
+		<br clear="all">
+
+		<label for="description" class="adddescription">Описание<span class="starsend">*</span></label>	
+		<span class="spacewidth"></span>
+
+		<label for="addpictures">Снимки<span class="starsend">*</span></label>
+		<span class="spacewidthtwo"></span>
+
+		<label for="location">Населено място<span class="starsend">*</span></label><br clear="all">
+
+		<label for="mailcontact">Лице за контакт<span class="starsend">*</span></label><br clear="all">
+
+		<label for="email">Имейл адрес<span class="starsend">*</span></label><br clear="all">
+
+		<label for="phone">Телефон</span></label><br>
+	</div>
+
+	<div class="inputs">
+		<input  type="text" name="first_name" maxlength="50" size="30" class="firstinputs"><br>
+
+		<input  type="text" name="category" maxlength="50" size="30" class="categoryinputs"><br>
+
+		<input  type="number" name="price" min="1" max="999" class="inputprice">лв.
+		<input type="checkbox" class="checkboxprice" name="negotiable" value="negotiable">По договаряне<br>
+		<input type="checkbox" class="checkboxdelivery" name="negotiable" value="negotiable">купувач
+		<input type="checkbox" class="checkboxdelivery" name="negotiable" value="negotiable">продавач
+		<input type="checkbox" class="checkboxdelivery" name="negotiable" value="negotiable">лично предаване<br>
+		<select size="1" name="choose" class="choosenewold" onchange="window.location.href=this.value;">
+			<option value="new">Избери</option>
+			<option value="new">Ново</option>
+			<option value="old">Използвано</option>
+		</select><br>
+
+		<select size="1" name="choose" class="chooseoffer" onchange="window.location.href=this.value;">
+			<option value="new">Частна</option>
+			<option value="new">Бизнес</option>
+		</select><br>
+		<textarea rows="5" cols="30"></textarea></label><br>
+
+		<a href="#"><img src="images/addphotoone.svg" class="addphotoone"></a>
+		<a href="#"><img src="images/addphoto1.svg" class="addphoto1"></a>
+		<a href="#"><img src="images/addphoto1.svg" class="addphoto1"></a>
+		<a href="#"><img src="images/addphoto1.svg" class="addphoto1"></a><br>
+		<a href="#"><img src="images/addphoto1.svg" class="addphotoone"></a>
+		<a href="#"><img src="images/addphoto1.svg" class="addphoto1"></a>
+		<a href="#"><img src="images/addphoto1.svg" class="addphoto1"></a>
+		<a href="#"><img src="images/addphoto1.svg" class="addphoto1"></a><br>
+		<a href="#"><img src="images/addphoto1.svg" class="addphotoone"></a>
+		<a href="#"><img src="images/addphoto1.svg" class="addphoto1"></a>
+		<a href="#"><img src="images/addphoto1.svg" class="addphoto1"></a>
+		<a href="#"><img src="images/addphoto1.svg" class="addphoto1"></a>
+		<br>
+
+		<input  type="text" name="location" maxlength="50" size="30" class="secondinputs"> <br>
+
+		<input  type="text" name="name" maxlength="50" size="30" class="secondinputs"> <br>
+
+		<input  type="text" name="email" maxlength="50" size="30" class="secondinputs"><br>
+
+		<input  type="text" name="phone" maxlength="50" size="30" class="secondinputs">
+
+	</div>
+	<a href="#" class="adpost">Публикувай</a>
+</form>
+	
+	<footer>
+	<div class="footer">
+		<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs&width=1000&height=214&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="1000" height="214" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true">
+		</iframe> <br>
+		 <small> Copyright &copy; 2017 mygamingbox.com</small>
+	</div>
+</footer>
+
+	</body>
+</html>
